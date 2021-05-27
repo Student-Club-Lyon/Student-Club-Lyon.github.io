@@ -1,1 +1,138 @@
-TEST
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+    <title>Student Club</title>
+    <link rel="icon" href="Ressources/STUDENT_CLUB_PNG.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="Styles/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="Styles/styles.css">
+
+    <!-- JS -->
+    <script src="Scripts/bootstrap.js"></script>
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="position-relative mx-auto d-flex align-content-start navbar-bg navbar-sc" id="banner">
+            <div class="w-100 d-flex flex-row align-items-center mx-auto navbar-sub-dc">
+                <img src="Ressources/STUDENT_CLUB_PNG.png" class="nav-image">
+                <span class="navbar-brand m-0 nav-title">Student Club</span>
+                <img src="Ressources/STUDENT_CLUB_PNG.png" class="nav-image">
+            </div>
+        </div>
+        <div class="position-absolute banner-img" id="partenaires">
+            <img src="Ressources/banière.png"  alt="nos partenaires"/>
+        </div>
+        <!--<nav class="navbar w-100 d-flex flex-row justify-content-center">
+            <div class="d-flex flex-row flex-nav-div justify-content-around align-items-center" style="width: 95%;">
+                <img src="Ressources/STUDENT_CLUB_PNG.png" class="nav-image mobile-hidden">
+                <span class="navbar-brand m-0 nav-title">Student Club</span>
+                <img src="Ressources/STUDENT_CLUB_PNG.png" class="nav-image mobile-hidden">
+            </div>
+        </nav>-->
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="w-100 d-flex flex-column align-items-center">
+            <div class="position-absolute bottom-0 d-flex flex-column align-items-center main-div" id="main-div">
+                <div class="d-flex flex-wrap card-div">
+                    <div class="card my-card" data-bs-toggle="modal" data-bs-target="#decathlonModal">
+                        <img src="Ressources/decathlon.webp" class="card-img-top ratio ratio-16x9" alt="decathlon">
+                        <div class="card-body">
+                            <p class="card-text">Réductions sur ça ça et çadddddddddddddddddd</p>
+                        </div>
+                    </div>
+
+                    <div class="card my-card" data-bs-toggle="modal" data-bs-target="#decathlonModal">
+                        <img src="Ressources/decathlon.webp" class="card-img-top ratio ratio-16x9" alt="decathlon">
+                        <div class="card-body">
+                            <p class="card-text">Réductions sur ça ça et çadddddddddddddddddd</p>
+                        </div>
+                    </div>
+
+                    <div class="card my-card" data-bs-toggle="modal" data-bs-target="#decathlonModal">
+                        <img src="Ressources/decathlon.webp" class="card-img-top ratio ratio-16x9" alt="decathlon">
+                        <div class="card-body">
+                            <p class="card-text">Réductions sur ça ça et çadddddddddddddddddd</p>
+                        </div>
+                    </div>
+
+                    <div class="card my-card" data-bs-toggle="modal" data-bs-target="#decathlonModal">
+                        <img src="Ressources/decathlon.webp" class="card-img-top ratio ratio-16x9" alt="decathlon">
+                        <div class="card-body">
+                            <p class="card-text">Réductions sur ça ça et çadddddddddddddddddd</p>
+                        </div>
+                    </div>
+
+                    <div class="card my-card" data-bs-toggle="modal" data-bs-target="#decathlonModal">
+                        <img src="Ressources/decathlon.webp" class="card-img-top ratio ratio-16x9" alt="decathlon">
+                        <div class="card-body">
+                            <p class="card-text">Réductions sur ça ça et çadddddddddddddddddd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="modal fade" id="decathlonModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header p-0">
+                    <img src="Ressources/decathlon.webp" class="card-img-top" alt="decathlon">
+                    <button type="button" class="btn-close position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    Réductions sur ça ça et çadddddddddddddddddd
+                </div>
+                <br>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="text-center position-absolute bottom-0 start-50 translate-middle-x px-2 pt-1 pb-2" style="width: 93%; background: linear-gradient(transparent, rgba(255,255,255,0.5));">
+            Copyright &copy; 2020 - 2021
+        </div>
+        <div class="position-absolute mb-1 DivRs">
+            <a href="https://www.instagram.com/studentclubiut/" target="_blank" class="text-decoration-none">
+                <img src="Ressources/instagram_logo_mono.png" class="LogoRs" id="insta" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/StudentClubIut" target="_blank"  class="text-decoration-none">
+                <img src="Ressources/facebook_logo_mono.png" class="LogoRs" id="fb" alt="facebook">
+            </a>
+            <a href="mailto:partenariat@student-club.org" target="_blank"  class="text-decoration-none">
+                <img src="Ressources/email_logo.png" class="LogoRs" id="mail" alt="email">
+            </a>
+        </div>
+    </footer>
+
+    <script type="application/javascript">
+        if( navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)
+        ) {
+            resizeMain()
+            window.addEventListener('resize', resizeMain);
+        }
+
+        function resizeMain() {
+            console.log('test')
+            document.getElementById('main-div').style.height = (window.innerHeight - document.getElementById('banner').clientHeight + 10) + 'px'
+            document.getElementById('partenaires').style.top = document.getElementById('banner').clientHeight - (document.getElementById('partenaires').clientHeight/2) + 'px'
+        }
+    </script>
+</body>
+</html>
