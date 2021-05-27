@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-@font-face {
-    font-family: "Permanent Marker";
-    src: url("../Ressources/PermanentMaker.ttf") format("truetype");
-}
-
 body {
     overflow: hidden;
 }
@@ -56,8 +51,8 @@ body, .navbar-bg {
 /* DESKTOP */
 @media (min-width: 768px) {
     .nav-title {
-        transform: translateY(-5%);
-        font-family: "Permanent Marker", Arial, sans-serif;
+        transform: translateY(-10%);
+        font-family: 'Permanent Marker', Arial, sans-serif;
 
         font-size: 4.5em;
 
@@ -142,7 +137,7 @@ body, .navbar-bg {
     .nav-title {
         transform: translateY(-10%);
 
-        font-family: "Permanent Marker", Arial, sans-serif;
+        font-family: 'Permanent Marker', Arial, sans-serif;
         font-size: 2rem;
 
         color: white;
@@ -152,7 +147,7 @@ body, .navbar-bg {
 
     .navbar-sc {
         z-index: 1;
-        width: 95%;
+        width: 90%;
         padding: .4rem 0;
 
         box-shadow: none;
