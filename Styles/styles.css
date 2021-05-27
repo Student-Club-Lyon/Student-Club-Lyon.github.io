@@ -135,7 +135,7 @@ body, .navbar-bg {
     }
 
     .nav-title {
-        transform: translateY(-10%);
+        transform: translateY(-12%);
 
         font-family: 'Permanent Marker', Arial, sans-serif;
         font-size: 2rem;
@@ -180,7 +180,7 @@ body, .navbar-bg {
         height: 90%;
         overflow-y: scroll;
 
-        padding-top: 50px;
+        padding-top: 40px;
     }
 
     .card-div {
